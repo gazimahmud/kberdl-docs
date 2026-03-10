@@ -1,5 +1,5 @@
 site_name = "BER Data Lakehouse"
-site_description = "Documentation for the BERDL Multi-Tenant Platform"
+site_description = "Documentation for the KBase BER Data Lakehouse (K-BERDL) — a unified, AI-native data platform for DOE Biological and Environmental Research"
 extra_css = [
   "stylesheets/extra.css",
   "stylesheets/fonts.css"
