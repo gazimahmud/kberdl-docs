@@ -1,0 +1,10 @@
+services:
+  zensical:
+    build: .
+    container_name: kbase_docs
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/docs
+      - ./theme:/theme
+    command: [ "zensical", "serve", "-a", "0.0.0.0:8000" ]

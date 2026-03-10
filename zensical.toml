@@ -1,0 +1,58 @@
+site_name = "BER Data Lakehouse"
+site_description = "Documentation for the BERDL Multi-Tenant Platform"
+extra_css = [
+  "stylesheets/extra.css",
+  "stylesheets/fonts.css"
+]
+
+[theme]
+name = "material"
+custom_dir = "overrides"
+favicon = "assets/favicon.png"
+features = [
+  "navigation.instant",
+  "navigation.sections",
+  "navigation.tracking",
+  "content.code.copy",
+  "content.tabs.link",
+  "search.highlight",
+  "search.suggest",
+  "header.autohide"
+]
+
+[theme.font]
+text = "Archivo"
+code = "Roboto Mono"
+
+[theme.icon]
+logo = "logo"
+
+[[theme.palette]]
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "material/weather-night"
+toggle.name = "Switch to dark mode"
+
+[[theme.palette]]
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "material/weather-sunny"
+toggle.name = "Switch to light mode"
+
+nav = [
+  { "Home" = "index.md" },
+  { "K-BERDL Data Ingestion" = "kberdl-data-ingestion.md" },
+  { "Architecture" = [
+      { "Lakehouse Overview" = "architecture.md" },
+      { "Tenant Model" = "tenant-model.md" },
+      { "Governance & Security" = "governance.md" }
+  ]},
+  { "Data Platform" = [
+      { "MinIO / Data Plane" = "data-plane-minio.md" },
+      { "Ingestion Guide" = "data-ingestion-guide.md" },
+      { "AI Integration" = "ai-integration.md" }
+  ]},
+  { "Roadmap" = "roadmap.md" }
+]

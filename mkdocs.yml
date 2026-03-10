@@ -1,0 +1,70 @@
+site_name: "BER Data Lakehouse"
+site_description: "Documentation for the BERDL Multi-Tenant Platform"
+site_url: ""
+
+# Theme Configuration
+theme:
+  name: material
+  # custom_dir: overrides # Removed as we moved files to docs/
+
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tracking
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - search.suggest
+    - header.autohide
+
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+
+  font:
+    text: Archivo
+    code: Roboto Mono
+
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/fonts.css
+
+# Navigation
+nav:
+  - Home: index.md
+  - K-BERDL Data Ingestion: kberdl-data-ingestion.md
+
+  - Architecture:
+      - Lakehouse Overview: architecture.md
+      - Tenant Model: tenant-model.md
+      - Governance & Security: governance.md
+  - Data Platform:
+      - MinIO / Data Plane: data-plane-minio.md
+      - Ingestion Guide: data-ingestion-guide.md
+      - AI Integration: ai-integration.md
+  - Roadmap: roadmap.md
+
+# Plugins
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
