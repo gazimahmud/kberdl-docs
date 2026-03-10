@@ -1,4 +1,4 @@
-# KBase Data Lakehouse Architecture
+# K-BERDL Architecture
 
 **A Multi-Tenant, AI-Native Data Lakehouse Platform for BER-Wide Data Integration**
 
