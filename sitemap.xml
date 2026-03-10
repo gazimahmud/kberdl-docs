@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/ai-integration/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/architecture/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/data-ingestion-guide/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/data-plane-minio/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/governance/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/index_bak/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/kberdl-data-ingestion/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/leadership_overview/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/roadmap/</loc>
+      </url>
+      <url>
+        <loc>https://gazimahmud.github.io/kberdl-docs/tenant-model/</loc>
+      </url>
+</urlset>

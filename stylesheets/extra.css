@@ -1,0 +1,74 @@
+/* Variable overrides */
+:root {
+  /* Primary Color: KBase Blue #127db3 */
+  --md-primary-fg-color: #127db3;
+  --md-primary-fg-color--light: #4aa3e8;
+  /* Lighter shade */
+  --md-primary-fg-color--dark: #0e6299;
+  /* Darker shade */
+  --md-accent-fg-color: #127db3;
+}
+
+/* Header */
+.md-header {
+  background-color: #127db3;
+  /* KBase Blue directly */
+  color: #ffffff;
+  border-bottom: none;
+  height: 5.0rem;
+  /* Increase header height significantly */
+}
+
+/* Force inner container to fill the full 5rem header height */
+.md-header__inner {
+  display: flex !important;
+  align-items: center !important;
+  height: 5rem !important;
+}
+
+/* Title — nudge down to visually align with KBase word in logo
+   (KBase letters sit at ~40.6% of SVG height, slightly above center) */
+.md-header__title {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 0.75rem;
+  transform: translateY(0.2rem);
+}
+
+.md-header__title,
+.md-tabs__link {
+  color: #ffffff !important;
+}
+
+/* Logo button — flex-centered, no extra padding */
+.md-header__button.md-logo {
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.4rem;
+  width: auto;
+  display: block;
+}
+
+/* Ensure search and other header icons are white on blue */
+.md-header__button,
+.md-search__input {
+  color: #ffffff !important;
+}
+
+/* Button override */
+.md-typeset .md-button--primary {
+  background-color: #127db3;
+  border-color: #127db3;
+  color: #ffffff;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #0e6299;
+}
