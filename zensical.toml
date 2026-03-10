@@ -52,6 +52,7 @@ nav = [
   ]},
   { "Data Platform" = [
       { "MinIO / Data Plane" = "data-plane-minio.md" },
+      { "Microbial Discovery Forge" = "microbial-discovery-forge.md" },
       { "Ingestion Guide" = "data-ingestion-guide.md" },
       { "AI Integration" = "ai-integration.md" }
   ]},
